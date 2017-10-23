@@ -17,11 +17,42 @@ get_header(); ?>
   <div id="primary" class="home-page hero-content">
     <div class="main-content" role="main">
       <?php while ( have_posts() ) : the_post(); ?>
+        <div class="homepage-hero">
         <?php the_content(); ?>
-          <a class="button" href="<?php echo site_url('/blog/') ?>">View Our Work</a>
+          <a class="button" href="<?php echo site_url('/case-studies/') ?>">View Our Work</a>
+        </div>
       <?php endwhile; // end of the loop. ?>
-    </div><!-- .main-content -->
-  </div><!-- #primary -->
+    </div><!-- .site-content -->
+  </div><!-- .home-page -->
+
+  <section class="featured-work">
+    <div class="site-content">
+      <div class="featured-work-title">
+        <h4>Featured Work</h4>
+      </div>
+
+        <ul class="homepage-featured-work">
+       <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
+          <!-- the loop -->
+          <?php while ( have_posts() ) : the_post(); 
+            $image_1 = get_field("image_1");
+            $size = "medium";
+          ?>
+            <li>
+            <figure>
+              <?php echo wp_get_attachment_image($image_1, $size); ?>
+            </figure>
+
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          </li>
+          <?php endwhile; 
+          // end of the loop. ?>
+        <?php wp_reset_query(); // resets the altered query back to the original ?>
+      </ul>
+
+    </div>
+  </section>
+
 
   <!-- RECENT BLOG POST -->
   <section class="recent-posts">
