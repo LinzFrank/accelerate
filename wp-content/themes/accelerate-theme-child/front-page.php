@@ -28,7 +28,7 @@ get_header(); ?>
   <section class="featured-work">
     <div class="site-content">
       <div class="featured-work-title">
-        <h4>Featured Work</h4>
+        <h4>Featured Work (Is this commit working?</h4>
       </div>
 
         <ul class="homepage-featured-work">
