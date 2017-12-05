@@ -110,10 +110,18 @@ aside.case-study-sidebar p a {
 }
 
 /* Footer */
-.social-media-navigation {
+li.social-icon {
+  float:right;
+  margin-right: 10px;
+  color: white;
   list-style-type: none;
-  display: block;
+  background-color: black;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
 }
+
 
 /* Media Queries */
 @media (min-width: 768px) {

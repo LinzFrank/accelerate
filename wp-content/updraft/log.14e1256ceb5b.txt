@@ -1,0 +1,157 @@
+0000.000 (0) Opened log file at time: Tue, 05 Dec 2017 17:56:56 +0000 on http://localhost:8888/accelerate-skillcrush
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.11 WP: 4.9.1 PHP: 7.1.6 (apache2handler, Darwin Lindsays-MBP 17.2.0 Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.6 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 21.5M | 14M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 191142.7 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.011 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.015 (0) Set semaphore last lock (fd) time to 2017-12-05 17:56:56
+0000.016 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=14e1256ceb5b, begun at=1512496616 (0s ago), job type=backup
+0000.022 (0) Scheduling a resumption (1) after 300 seconds (1512496916) in case this run gets aborted
+0000.036 (0) Checking if we have a zip executable available
+0000.037 (0) Testing: /usr/bin/zip
+0000.044 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.045 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.046 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.047 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.048 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.056 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.066 (0) Working binary zip found: /usr/bin/zip
+0000.069 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.069 (0) Creation of backups of directories: beginning
+0000.073 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.148 (0) Total entities for the zip file: 260 directories, 1614 files (0 skipped as non-modified), 26.2 MB
+0000.153 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.157 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.162 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.167 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.171 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.172 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14 MB, 1614 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.809 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: size is now: 4.90 MB
+0000.815 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 600 files added (on-disk size: 5027.8 KB)
+0000.820 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 700 files added (on-disk size: 5027.8 KB)
+0000.824 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 800 files added (on-disk size: 5027.8 KB)
+0000.828 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 900 files added (on-disk size: 5027.8 KB)
+0000.833 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 1000 files added (on-disk size: 5027.8 KB)
+0000.834 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 1614 files batched, 501 (1002) added so far); re-opening (prior size: 5027.8 KB)
+0001.383 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: size is now: 7.70 MB
+0001.394 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 1100 files added (on-disk size: 7903.7 KB)
+0001.399 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 1200 files added (on-disk size: 7903.7 KB)
+0001.404 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 1300 files added (on-disk size: 7903.7 KB)
+0001.408 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 1400 files added (on-disk size: 7903.7 KB)
+0001.413 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 1500 files added (on-disk size: 7903.7 KB)
+0001.414 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 1614 files batched, 501 (1503) added so far); re-opening (prior size: 7903.7 KB)
+0001.619 (0) Zip: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip.tmp: 1600 files added (on-disk size: 8631.5 KB)
+0001.898 (0) Created plugins zip (0) - 8815.4 KB in 1.8 s (4833.2 KB/s) (sha1: 66dbd5d1d6796873c82a2bf835b6cdb105c8e8e3, sha256: 67b2b6393fe31ae50da1bc8b2bb19e00b45cf1a3fc4fa11d76b4e43e592f0533)
+0001.901 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.908 (0) Total entities for the zip file: 13 directories, 91 files (0 skipped as non-modified), 2.2 MB
+0001.969 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-themes.zip.tmp: size is now: 2.00 MB
+0002.020 (0) Created themes zip (0) - 2009.4 KB in 0.1 s (17182.1 KB/s) (sha1: 1b1ec691333a1e6e23911628a296e553e0d761ad, sha256: 8398b864b5f438fd2cbaa5562439a99474585198394f1eb784a63bd4a10bf574)
+0002.023 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0002.023 (0) Looking for candidates to back up in: /Users/lindsayfrankenfeld/Sites/accelerate-skillcrush/wp-content/uploads
+0002.024 (0) finding files: 2017: adding to list (1)
+0002.025 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0002.030 (0) Total entities for the zip file: 3 directories, 16 files (0 skipped as non-modified), 1.2 MB
+0002.052 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-uploads.zip.tmp: size is now: 1.20 MB
+0002.085 (0) Created uploads zip (0) - 1205.7 KB in 0.1 s (20511.5 KB/s) (sha1: c73ab4edd3b4e292b759af524437b39f232f48ef, sha256: e1eb5b53364ae9863db064786d635c16b504a67e92e78a44e80dee00cd901956)
+0002.088 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.090 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.090 (0) Looking for candidates to back up in: /Users/lindsayfrankenfeld/Sites/accelerate-skillcrush/wp-content
+0002.091 (0) finding files: upgrade: skipping: excluded by options
+0002.092 (0) finding files: .DS_Store: adding to list (1)
+0002.092 (0) finding files: index.php: adding to list (2)
+0002.093 (0) finding files: plugins: skipping: this is the plugins directory
+0002.094 (0) finding files: uploads: skipping: this is the uploads directory
+0002.095 (0) finding files: updraft: skipping: this is the updraft directory
+0002.097 (0) finding files: themes: skipping: this is the themes directory
+0002.100 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0002.107 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-others.zip.tmp: size is now: 0.00 MB
+0002.113 (0) Created others zip (0) - 0.6 KB in 0 s (38.8 KB/s) (sha1: 6d62e346c7e1e8fa3906d812a0b2a37c9c5eb918, sha256: 9439e27df31a6403da949f9d4447668abfb67365585db0931556d0d91d5a4530)
+0002.119 (0) Saving backup status to database (elements: 8)
+0002.122 (0) Beginning creation of database dump (WordPress DB)
+0002.136 (0) Table wp_options: Total expected rows (approximate): 165
+0002.144 (0) Table wp_options: Total rows added: 161 in 0.01 seconds
+0002.146 (0) Table wp_options: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_options.table.gz - 7.4 KB)
+0002.151 (0) Table wp_users: Total expected rows (approximate): 0
+0002.154 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0002.156 (0) Table wp_users: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_users.table.gz - 0.6 KB)
+0002.160 (0) Table wp_usermeta: Total expected rows (approximate): 21
+0002.165 (0) Table wp_usermeta: Total rows added: 23 in 0.00 seconds
+0002.166 (0) Table wp_usermeta: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_usermeta.table.gz - 1.1 KB)
+0002.170 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0002.173 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0002.174 (0) Table wp_commentmeta: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_commentmeta.table.gz - 0.3 KB)
+0002.179 (0) Table wp_comments: Total expected rows (approximate): 0
+0002.183 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0002.184 (0) Table wp_comments: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_comments.table.gz - 0.7 KB)
+0002.190 (0) Table wp_links: Total expected rows (approximate): 0
+0002.194 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0002.196 (0) Table wp_links: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_links.table.gz - 0.4 KB)
+0002.200 (0) Table wp_postmeta: Total expected rows (approximate): 183
+0002.206 (0) Table wp_postmeta: Total rows added: 183 in 0.00 seconds
+0002.207 (0) Table wp_postmeta: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_postmeta.table.gz - 3.2 KB)
+0002.211 (0) Table wp_posts: Total expected rows (approximate): 44
+0002.222 (0) Table wp_posts: Total rows added: 44 in 0.01 seconds
+0002.223 (0) Table wp_posts: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_posts.table.gz - 20.8 KB)
+0002.228 (0) Table wp_term_relationships: Total expected rows (approximate): 29
+0002.232 (0) Table wp_term_relationships: Total rows added: 29 in 0.00 seconds
+0002.233 (0) Table wp_term_relationships: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0002.237 (0) Table wp_term_taxonomy: Total expected rows (approximate): 19
+0002.241 (0) Table wp_term_taxonomy: Total rows added: 19 in 0.00 seconds
+0002.241 (0) Table wp_term_taxonomy: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0002.246 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0002.249 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0002.251 (0) Table wp_termmeta: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_termmeta.table.gz - 0.3 KB)
+0002.255 (0) Table wp_terms: Total expected rows (approximate): 19
+0002.258 (0) Table wp_terms: Total rows added: 19 in 0.00 seconds
+0002.259 (0) Table wp_terms: finishing file (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_terms.table.gz - 0.6 KB)
+0002.264 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_options.table.gz (1/12): adding to final database dump
+0002.266 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_users.table.gz (2/12): adding to final database dump
+0002.267 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0002.268 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0002.269 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0002.270 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_links.table.gz (6/12): adding to final database dump
+0002.271 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0002.273 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0002.280 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0002.281 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0002.283 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0002.284 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0002.285 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db.gz: finished writing out complete database file (24 KB)
+0002.292 (0) Total database tables backed up: 12 (backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db.gz, size: 34671, sha256)
+0002.300 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0002.301 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0002.301 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0002.302 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0002.303 (0) backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.304 (0) Saving backup history. Total backup size: 11.8 MB
+0002.306 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0002.309 (0) Cloud backup selection (1/1): none (last)
+0002.310 (0) No remote despatch: user chose no remote backup service
+0002.313 (0) Recording as successfully uploaded: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-plugins.zip (6bc04fe445e873b803bfd12b9031651f)
+0002.319 (0) Recording as successfully uploaded: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-themes.zip (25f9d33d7557c848f628eb41b24fb83b)
+0002.324 (0) Recording as successfully uploaded: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-uploads.zip (4983f8e2520a6133f14e7fbb9ad02077)
+0002.331 (0) Recording as successfully uploaded: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-others.zip (e625298f96ce26f6e0f0c4d2734c4c48)
+0002.337 (0) Recording as successfully uploaded: backup_2017-12-05-1756_Accelerate_14e1256ceb5b-db.gz (82d1da851acd8e349818c7d6750826e2)
+0002.342 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.343 (0) Number of backup sets in history: 2; groups (db): 1
+0002.344 (0) Examining (for databases) backup set with group_id=0, nonce=14e1256ceb5b, datestamp=1512496616 (Dec 05 2017 17:56:56)
+0002.345 (0) This backup set is the backup set just made, so will not be deleted.
+0002.345 (0) Examining (for databases) backup set with group_id=0, nonce=6e94f4bfdf2c, datestamp=1508795179 (Oct 23 2017 21:46:19)
+0002.345 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.346 (0) Number of backup sets in history: 2; groups (files): 1
+0002.347 (0) Examining (for files) backup set with nonce=14e1256ceb5b, datestamp=1512496616 (Dec 05 2017 17:56:56)
+0002.347 (0) This backup set is the backup set just made, so will not be deleted.
+0002.348 (0) This backup set is the backup set just made, so will not be deleted.
+0002.348 (0) This backup set is the backup set just made, so will not be deleted.
+0002.348 (0) This backup set is the backup set just made, so will not be deleted.
+0002.348 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.349 (0) Examining (for files) backup set with nonce=6e94f4bfdf2c, datestamp=1508795179 (Oct 23 2017 21:46:19)
+0002.349 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.349 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0002.351 (0) Resume backup (14e1256ceb5b, 0): finish run
+0002.354 (0) Decremented the semaphore (fd) by 1
+0002.355 (0) Semaphore (fd) unlocked
+0002.356 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.359 (0) No email will/can be sent - the user has not configured an email address.
+0002.360 (0) The backup apparently succeeded and is now complete
