@@ -75,6 +75,120 @@
   text-transform: uppercase;
 }
 
+
+/* About page */
+
+.about .site-content {
+ display: block;
+}
+
+.about-title h5 {
+  text-align: center;
+  font-weight: bold; 
+  color: grey;
+}
+
+.about-description p {
+  text-align: center;
+  width: 60%;
+}
+
+.about-services {
+  display: block;
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-services-content li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+
+.about-services-content .about-icon-left {
+  width: 40%;
+  text-align: center;
+}
+
+.about-services-content .about-description-right {
+  width: 50%;
+}
+
+.about-services-influencer li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+
+.about-services-influencer .about-icon-right {
+  width: 40%;
+  text-align: center;
+}
+
+.about-services-influencer .about-description-left {
+  width: 50%;
+}
+
+.about-services-social li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+
+.about-services-social .about-icon-left {
+  width: 40%;
+  text-align: center;
+}
+
+.about-services-social .about-description-right {
+  width: 50%;
+
+}
+
+.about-services-design li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+
+.about-services-design .about-icon-right {
+  width: 40%;
+  text-align: center;
+}
+
+.about-services-design .about-description-left {
+  width: 50%;
+}
+
+/* about footer*/
+
+section.about-contact-footer ul {
+  max-height: 150px;
+  clear: both; 
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border-top: 1px solid #bfbfbf;
+  width: 90%;
+  max-width: 960px;
+}
+
+.about-contact-footer li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.about-contact-footer h3 a {
+  text-align: center;
+}
+
 /* Case Studies */
 
 div.case-study-images {
@@ -97,7 +211,8 @@ aside.case-study-sidebar {
 
 aside.case-study-sidebar h1 {
   font: 'Arial, 'Open Sans', sans-serif; 
-}
+  }
+
 
 aside.case-study-sidebar h5 {
   font-weight: lighter;
@@ -108,6 +223,16 @@ aside.case-study-sidebar h5 {
 aside.case-study-sidebar p a {
   color: #45ac9d;
 }
+
+.four h3, h1 {
+  font-family: 'Trirong', 'Open Sans', sans-serif;
+}
+
+.four a {
+  color: red;
+  font-family: 'Trirong', 'Open Sans', sans-serif;
+}
+
 
 /* Footer */
 li.social-icon {
@@ -122,6 +247,11 @@ li.social-icon {
   border-radius: 50%;
 }
 
+
+/* Contact Form */
+div.nf-field-4 {
+  float: right;
+}
 
 /* Media Queries */
 @media (min-width: 768px) {

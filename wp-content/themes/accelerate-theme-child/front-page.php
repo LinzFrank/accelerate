@@ -28,7 +28,7 @@ get_header(); ?>
   <section class="featured-work">
     <div class="site-content">
       <div class="featured-work-title">
-        <h4>Featured Work (Is this commit working?</h4>
+        <h4>Featured Work</h4>
       </div>
 
         <ul class="homepage-featured-work">
@@ -70,6 +70,13 @@ get_header(); ?>
           // end of the loop. ?>
 
         <?php wp_reset_query(); // resets the altered query back to the original ?>
+
+        <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?> 
+          <div id="secondary" class="widget-area" role="complementary">
+        <?php dynamic_sidebar( 'sidebar-2' ); ?>
+          </div>
+        <?php endif; ?>
+        
       </div>
     </div>
   </section>
